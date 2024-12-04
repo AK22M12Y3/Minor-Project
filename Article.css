@@ -1,0 +1,228 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%; /* Vertically center the text */
+    left: 50%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    color:black;
+    font-size: 5rem;
+    font-weight: bold;
+    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); */
+    text-align: center;
+  }
+
+  /* 1st article */
+  .split-section {
+    display: flex;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .image-half {
+    flex: 1; /* Takes up half of the section */
+    background-color: #f3f3f3; /* Optional fallback if the image doesn't load */
+  }
+  
+  .image-half img {
+    width: 185%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire space */
+  }
+  
+  .text-half {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff; /* Optional background color */
+    text-align: center;
+    
+  }
+  
+  .text-half h2 {
+    font-size: 3.5rem;
+    margin-bottom: 120px;
+    color: #004085; /* Example color */
+    /* font-family: initial; */
+  }
+  
+  .text-half p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* section change */
+  /* General Section Styling */
+.article-section {
+    max-width: 1076px;
+    margin:  auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 25px;
+    /* width: 80rem; */
+  }
+  
+  /* Heading Styling */
+  .article-heading {
+    font-family: 'Playfair Display', serif; /* Elegant serif font */
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Paragraph Styling */
+  .article-paragraph {
+    font-family: 'Open Sans', sans-serif; /* Clean and modern sans-serif font */
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #34495e;
+    text-align: justify;
+    justify-content: center;
+    width: 67rem;
+  }
+
+  .video-section {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .video-heading {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .youtube-video {
+    width: 100%;
+    height: 450px; /* Adjust the height as needed */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+/* social media    */
+/* General Styling */
+.social-media-section {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .social-media-section h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icon {
+    text-decoration: none;
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+  
+  .facebook {
+    background: #3b5998;
+  }
+  
+  .twitter {
+    background: #1da1f2;
+  }
+  
+  .instagram {
+    background: #e4405f;
+  }
+  
+  .linkedin {
+    background: #0077b5;
+  }
+  
+  /* Hover Effects */
+  .social-icon:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  /* 2nd article */
+  .article-block {
+    max-width: 1076px;
+    margin:  auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .article-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .article-paragraph {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  /* loading  */
+  .loading-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px; /* Adjust height as needed */
+    background-color: #f9f9f9;
+  }
+  
+  .loading-container {
+    text-align: center;
+  }
+  
+  .loading-gif {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .loading-container p {
+    font-size: 1.2rem;
+    color: #333;
+  }  

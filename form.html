@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="signup-container">
+      <div class="form-left">
+        <img src="sprinkler.avif" alt="Sprinkler" class="form-image" />
+      </div>
+      <div class="form-right">
+        <h1>Sign Up</h1>
+        <p>
+          Sign Up for the best experience of our platform and help the world to
+          make it a better place
+        </p>
+        <form id="signupForm">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phoneCode">Code</label>
+            <select id="phoneCode" name="phoneCode">
+              <option value="+1">US +1</option>
+              <option value="+44">UK +44</option>
+              <option value="+91">India +91</option>
+              <option value="+61">Australia +61</option>
+              <option value="+81">Japan +81</option>
+              <option value="+33">France +33</option>
+              <option value="+49">Germany +49</option>
+              <option value="+39">Italy +39</option>
+              <option value="+86">China +86</option>
+              <option value="+7">Russia +7</option>
+              <option value="+55">Brazil +55</option>
+              <option value="+27">South Africa +27</option>
+              <option value="+34">Spain +34</option>
+              <option value="+971">UAE +971</option>
+              <option value="+62">Indonesia +62</option>
+              <option value="+64">New Zealand +64</option>
+              <option value="+52">Mexico +52</option>
+              <option value="+27">South Africa +27</option>
+              <option value="+234">Nigeria +234</option>
+              <option value="+254">Kenya +254</option>
+              <option value="+94">Sri Lanka +94</option>
+              <option value="+880">Bangladesh +880</option>
+              <option value="+60">Malaysia +60</option>
+              <option value="+66">Thailand +66</option>
+              <option value="+92">Pakistan +92</option>
+              <option value="+98">Iran +98</option>
+              <option value="+373">Moldova +373</option>
+              <option value="+351">Portugal +351</option>
+              <option value="+46">Sweden +46</option>
+              <option value="+90">Turkey +90</option>
+              <option value="+20">Egypt +20</option>
+              <option value="+213">Algeria +213</option>
+              <option value="+91">India +91</option>
+              <option value="+297">Aruba +297</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="phoneNumber">Phone</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required />
+          </div>
+          <!-- <button type="submit" class="submit-btn">Let's Go</button> -->
+          <a href="home.html">
+            <button type="button" class="submit-btn">Let's Go</button>
+          </a>
+        </form>
+        <div class="social-links">
+          <a href="#">Facebook</a> | <a href="#">Twitter</a> |
+          <a href="#">Instagram</a> |
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

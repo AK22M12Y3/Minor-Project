@@ -1,0 +1,112 @@
+img{width: 100%;}
+.info-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.info-section .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.info-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.info-section p {
+    font-size: 16px;
+    color: #5c66ab;
+    line-height: 1.6;
+
+}
+.slogan-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9; /* Blue background */
+    color: rgb(88, 108, 223);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust as needed */
+}
+
+.slogan-section h1 {
+    margin: 0;
+}
+
+.who-we-are {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    gap: 20px; /* Adds spacing between the halves */
+    /* background-image: url(imagebluell.jpeg); */
+    height: 20rem;
+}
+
+.who-we-are .half {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: justify; /* Aligns text for readability */
+}
+
+.who-we-are h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.who-we-are p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+/* team sectiom  */
+.team-section {
+    background-image: url('teamgb.avif'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: black; /* Text color */
+    text-align: center;
+    padding: 50px 0;
+}
+
+.text-container {
+    /* background-color: rgba(0, 0, 0, 0.5); Semi-transparent background */
+    padding: 20px;
+    font-size: 25px;
+}
+
+.team-members-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    margin-bottom: 5px;
+}
