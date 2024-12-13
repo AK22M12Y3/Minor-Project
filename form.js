@@ -14,4 +14,7 @@ document.getElementById('signupForm').addEventListener('submit', function (event
     }
 });
 
-<button type="button" class="submit-btn" onclick="window.location.href='home.html';">Let's Go</button>
+document.getElementById('btn').addEventListener('click', function() {
+    window.location.href = 'home.html';
+});
+

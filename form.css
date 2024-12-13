@@ -70,7 +70,7 @@ input:focus, select:focus {
     border-color: #007bff;
 }
 
-.submit-btn {
+#btn {
     display: block;
     width: 100%;
     padding: 10px;
@@ -81,7 +81,7 @@ input:focus, select:focus {
     font-size: 16px;
     cursor: pointer;
     margin-top: 10px;
-    text-decoration: none;
+    
 }
 
 .submit-btn:hover {
